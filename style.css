@@ -1,0 +1,194 @@
+@charset "UTF-8";
+html {
+    font-size: 16px;
+    font-family:sans-serif;
+}
+h1 {
+    font-size: 2.0rem;
+    line-height: 200%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+h1.single-title {
+    font-size: 2.0rem;
+    line-height: 200%;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: gray solid 1px;
+    background-color: lightgray;
+    text-align: center;
+}
+h2 {
+    font-size: 1.2rem;
+    line-height: 130%;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: gray solid 1px;
+    background-color: lightgray;
+}
+h3 {
+    font-size: 1.2rem;
+    line-height: 130%;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: gray solid 1px;
+    background-color: lightgray;
+}
+p {
+    font-size: 1.0rem;
+    line-height: 200%;
+}
+a:link{
+    color: blue;
+    text-decoration: underline;
+}
+a:visited{
+    color: blue;
+    text-decoration: underline;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: 0px auto;
+    border: gray solid 1px;
+    background-color: lightgray;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    border: gray solid 1px;
+    background-color: skyblue;
+}
+nav {
+    box-sizing: border-box;
+    width: 100%;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 100%;
+    border: gray solid 1px;
+    background-color: pink;
+}
+li {
+    padding: 10px;
+    border-right: gray solid 1px;
+}
+.column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 100%;
+    border: gray solid 1px;
+    background-color: plum;
+}
+main.front-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 70%;
+    padding: 10px;
+    background-color: plum;
+}
+main.archive {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 70%;
+    padding: 10px;
+    background-color: plum;
+}
+main.single {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    background-color: plum;
+}
+section.column-sub {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 5%;
+    border: gray solid 1px;
+    background-color: white;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    width: 30%;
+    padding: 10px;
+    border: gray solid 1px;
+    background-color: khaki;
+}
+section.sidebar-sub {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 5%;
+    border: gray solid 1px;
+    background-color: white;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-around;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 10px;
+    border: gray solid 1px;
+    background-color: navajowhite;
+}
+section.footer-sub {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 40%;
+    padding: 10px;
+    margin: 10px 5%;
+    border: gray solid 1px;
+    background-color: white;
+}
